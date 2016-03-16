@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">신호측정기 BT모듈</string>
+
+    <!--  BluetoothChat -->
+    <string name="send">전송</string>
+    <string name="not_connected">장치에 연결되지 않았습니다.</string>
+    <string name="bt_not_enabled_leaving">블루투스를 사용할 수 없습니다. 프로그램을 종료합니다.</string>
+    <string name="title_connecting">연결중...</string>
+    <string name="title_connected_to">연결됨: </string>
+    <string name="title_not_connected">연결 안됨</string>
+
+    <!--  DeviceListActivity -->
+    <string name="scanning">장치를 검색하는 중...</string>
+    <string name="select_device">장치 선택</string>
+    <string name="none_paired">장치가 페어링 되지 않았습니다.</string>
+    <string name="none_found">장치를 찾을 수 없습니다.</string>
+    <string name="title_paired_devices">페어링 된 장치</string>
+    <string name="title_other_devices">다른 이용가능 장치</string>
+    <string name="button_scan">장치 검색</string>
+
+    <!-- Options Menu -->
+    <string name="connect">장치 연결</string>
+    <string name="discoverable">검색 허용</string>
+</resources>

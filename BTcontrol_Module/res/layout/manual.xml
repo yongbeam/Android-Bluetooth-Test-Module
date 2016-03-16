@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="540dp"
+        android:orientation="vertical" >
+
+		<TextView
+		    android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="10dp"
+			android:textSize="14sp"
+			android:text="본 어플리케이션은 ATmaga 등에 블루투스 모듈 제어 테스트용입니다.\n신호는 무조건 문자열 로 전달됨으로 AVR에서 처리시 문자로 처리하시기 바랍니다.\n\n본 앱의 기능은 기존 RF방사패턴(전파특성)측정기 앱에 기본 포함되어 있는 기능을
+따로 모듈로 분리한것입니다.\n\n문의: http://www.i-rooting.com"
+		/>
+
+     </LinearLayout>
+</ScrollView>
+
+  

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFFF" >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="블루투스 제어 모듈"
+        android:textColor="#000000"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="AVR,아두이노 등의 블루투스 모듈제어 테스트 앱" />
+    
+    <ListView
+        android:id="@+id/in"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll"
+        android:layout_marginBottom="10dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" >
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:textColor="#FF0000"
+            android:text="장치와 연결되지 않음" />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="28dp"
+            android:layout_toLeftOf="@+id/textView4"
+            android:textColor="#0000FF"
+            android:text="연결준비" />
+
+    </RelativeLayout>
+
+ <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:background="@drawable/my_rounded_corner2" >
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.01"
+        android:text="직접 입력 "
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:textColor="#000000"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+        <EditText
+            android:id="@+id/edit_text_out"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:hint="ex)a"
+            android:layout_weight="0.57"
+            android:layout_margin="5dp" />
+
+        <Button
+            android:id="@+id/button_send"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="0.11"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/my_rounded_corner3"
+            android:text="전송" />
+
+    </LinearLayout>
+    
+<LinearLayout
+      android:layout_width="300dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="97dp"
+        android:layout_height="55dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/my_rounded_corner"
+        android:text="1" />
+    
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="97dp"
+        android:layout_height="55dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/my_rounded_corner"
+        android:text="2" />
+    
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="97dp"
+        android:layout_height="55dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:background="@drawable/my_rounded_corner"
+        android:text="3" />
+
+  
+
+    </LinearLayout>
+
+<LinearLayout
+    android:layout_width="300dp"
+    android:layout_height="55dp"
+    android:layout_gravity="center"
+    android:orientation="horizontal" 
+    android:layout_marginTop="20dp"
+    android:gravity="center">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="97dp"
+        android:layout_height="55dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/my_rounded_corner"
+        android:text="4" />
+    
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="97dp"
+        android:layout_height="55dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/my_rounded_corner"
+        android:text="5" />
+    
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="97dp"
+        android:layout_height="55dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:background="@drawable/my_rounded_corner"
+        android:text="6" />
+</LinearLayout>
+         
+  <LinearLayout
+      android:layout_width="300dp"
+      android:layout_height="55dp"
+      android:layout_gravity="center"
+      android:layout_marginTop="20dp"
+      android:orientation="horizontal"
+      android:gravity="center" >
+    
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="97dp"
+        android:layout_height="55dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/my_rounded_corner"
+        android:text="7" />
+    
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="97dp"
+        android:layout_height="55dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:layout_marginRight="1dp"
+        android:background="@drawable/my_rounded_corner"
+        android:text="8" />
+    
+    <Button
+        android:id="@+id/button9"
+        android:layout_width="97dp"
+        android:layout_height="55dp"
+        android:textColor="#FFFFFF"
+        android:textSize="20dp"
+        android:background="@drawable/my_rounded_corner"
+        android:text="9" />
+</LinearLayout>
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent" >
+
+      <Button
+          android:id="@+id/buttonm"
+          android:layout_width="150dp"
+          android:layout_height="40dp"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentLeft="true"
+          android:background="@drawable/my_rounded_corner3"
+          android:text="도움말"
+          android:textSize="20sp"
+          android:layout_margin="1dp"
+          android:onClick="OnClick"
+          android:textColor="#FFFFFF" />
+
+      <Button
+          android:id="@+id/buttonm_shon"
+          android:layout_width="wrap_content"
+          android:layout_height="40dp"
+          android:layout_alignParentBottom="true"
+          android:layout_alignParentRight="true"
+          android:background="@drawable/my_rounded_corner3"
+          android:layout_margin="1dp"
+          android:textColor="#FFFFFF"
+          android:textSize="20sp"
+          android:onClick="OnClick"
+          android:text="검색허용" />
+
+      <Button
+          android:id="@+id/buttonm_connt"
+          android:layout_width="wrap_content"
+          android:layout_height="40dp"
+          android:layout_alignParentBottom="true"
+          android:layout_margin="1dp"
+          android:layout_toLeftOf="@+id/buttonm_shon"
+          android:layout_toRightOf="@+id/buttonm"
+          android:background="@drawable/my_rounded_corner"
+          android:onClick="OnClick"
+          android:text="장치연결"
+          android:textColor="#FFFFFF"
+          android:textSize="20sp" />
+  </RelativeLayout>
+
+</LinearLayout>
