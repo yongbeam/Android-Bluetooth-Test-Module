@@ -68,11 +68,6 @@ void main(void)
 
     atcommand("AT+BTSCAN\r"); 
     
-    // 5angle: 모터각도 5도회전    =  1
-    // 10angle: 모터각도 10도회전  =  2
-    // 20angle: 모터각도 20도회전  =  3
-    // not_error : 오류
-
         while(1)
         {
           a=Usart0_Rx();
