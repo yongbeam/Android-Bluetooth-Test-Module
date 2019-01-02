@@ -1,3 +1,7 @@
+# DEPRECATED PROJECT
+최신 버전의 안드로이드와 호환되지 않습니다.
+그리고 더이상 업데이트를 제공하지 않습니다.
+
 # Android-Bluetooth-Test-Module
 Android -- ATmaga128 or Arduino Bluetooth Communication Module
 
